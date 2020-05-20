@@ -13,3 +13,13 @@ function input($nb)
         echo '<div><input type="text"/></div>';
         }
 }
+
+function createForm($array)
+{
+    foreach($array as $key => $val)
+    {
+        echo '<form method="POST" action="">';
+        echo '<input name="' . $val['name'] . '" type="' . $val['type'] . '" class="' . $val['class'] . '" />';
+        echo '</form>';
+    }
+}

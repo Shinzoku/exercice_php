@@ -58,5 +58,13 @@ $array3 = ["pays" => ['italie', 'france', 'belgique']];
 // }
 
 require_once('function.php');
-compteJusque(12);
-input(2);
+// compteJusque(12);
+// input(2);
+
+$array = array(
+    array('name' => 'nom', 'type' => 'text', 'class' => 'modal' ), 
+    array('name' => 'prenom', 'type' => 'text', 'class' =>'modal' ), 
+    array('name' => 'valider', 'type' => 'submit', 'class' =>'btn')
+);
+
+createForm($array);
