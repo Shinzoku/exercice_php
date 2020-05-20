@@ -57,3 +57,5 @@ $array3 = ["pays" => ['italie', 'france', 'belgique']];
 //     echo '</ul></li>';
 // }
 
+require_once('function.php');
+compteJusque(12);
