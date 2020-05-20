@@ -12,6 +12,10 @@
 //     echo $i;
 // }
 
-for( $i = 1; $i <= 10; $i++){
-    echo $i*$i;
-}
+// for( $i = 1; $i <= 10; $i++){
+//     echo '<div>' .$i*$i. '</div>';
+// }
+
+$a = 'bonjour ';
+$b = 'tout le monde';
+echo $a.$b;
