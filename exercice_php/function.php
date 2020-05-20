@@ -7,3 +7,9 @@ function compteJusque($number)
     }
 }
 
+function input($nb)
+{
+    for ($i=1 ; $i <= $nb; $i++) {
+        echo '<div><input type="text"/></div>';
+        }
+}

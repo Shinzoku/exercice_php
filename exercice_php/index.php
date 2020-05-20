@@ -59,3 +59,4 @@ $array3 = ["pays" => ['italie', 'france', 'belgique']];
 
 require_once('function.php');
 compteJusque(12);
+input(2);
